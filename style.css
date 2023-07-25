@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+.box {
+    height: 534px;
+    width: 400px;
+    /* outline: 2px solid black; */
+    margin-left: 32%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.box .top img {
+    margin-top: -15%;
+    height: 400px;
+    width: 550px;
+}
+
+.box .down {
+    height: 330px;
+    width: 400px;
+    position: absolute;
+    background-color: rgb(77, 201, 77);
+    top: 44%;
+
+}
+
+.down h5 {
+    height: 20px;
+    width: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    align-items: center;
+    border-radius: 8px;
+    margin-left: 12px;
+    margin-top:1rem;
+    padding-left: 6%;
+    padding-top: 6px;
+    background-color: red;
+}
+
+.down h3 {
+    margin-left: 5%;
+    margin-top: -4%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+.down .mil img {
+    margin-left: 5%;
+    margin-top: -4%;
+}
+
+.down .mil p {
+    margin-left: 12%;
+    margin-top: -25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+
+}
+
+.down .fuel img {
+    margin-left: 5%;
+}
+
+.down .fuel p {
+    margin-left: 12%;
+    margin-top: -21px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+
+}
+
+.down .safety img {
+    margin-left: 5%;
+}
+
+.safety .star {
+    margin-left: 22%;
+    margin-top: -12.6%;
+}
+
+.down .safety p {
+    margin-left: 12%;
+    margin-top: -21px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.color {
+    margin-top: -5%;
+    margin-left: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+#red {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border-color: red;
+    background-color: red;
+}
+
+#grey {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border-color: grey;
+    background-color: grey;
+}
+
+#black {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.down .price {
+    display: flex;
+}
+
+.down .price h2 {
+    margin-left: 32%;
+    margin-top: -6%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.down .price s {
+    margin-left: 2%;
+    margin-top: -4%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+#cart {
+    height: 10%;
+    width: 50%;
+    margin-left: 6%;
+    background-color: white;
+}
